@@ -1,5 +1,6 @@
 # --- For-Bot-Working --------- #
 Pyrofork
+pyromod==1.5
 TgCrypto
 python-dotenv
 # --- For-Database ------------ #

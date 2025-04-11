@@ -37,7 +37,7 @@ TG_BOT_WORKERS = int(os.environ.get("TG_BOT_WORKERS", "4"))
 
 #start message
 START_PIC = os.environ.get("START_PIC","https://graph.org/file/3ad8048ca8b06afe3648f-cf2818473b939ac450.jpg")
-START_MSG = os.environ.get("START_MESSAGE", "нєℓℓo {first}\n\n👋🏻 ɪᴛ's ᴘʀɪᴠᴀᴛᴇ 😅 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ 🦅 ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs 📺 ɪɴ sᴘᴇᴄɪғɪᴇᴅ 🦄 ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs 🫧 ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ 😎 sᴘᴇᴄɪᴀʟ ʟɪɴᴋ🪄."
+START_MSG = os.environ.get("START_MESSAGE", "нєℓℓo {first}\n\n👋🏻 ɪᴛ's ᴘʀɪᴠᴀᴛᴇ 😅 ғɪʟᴇ sᴛᴏʀᴇ ʙᴏᴛ, ɪ ᴄᴀɴ sᴛᴏʀᴇ 🦅 ᴘʀɪᴠᴀᴛᴇ ғɪʟᴇs 📺 ɪɴ sᴘᴇᴄɪғɪᴇᴅ 🦄 ᴄʜᴀɴɴᴇʟ ᴀɴᴅ ᴏᴛʜᴇʀ ᴜsᴇʀs 🫧 ᴄᴀɴ ᴀᴄᴄᴇss ɪᴛ ғʀᴏᴍ 😎 sᴘᴇᴄɪᴀʟ ʟɪɴᴋ🪄.")
 try:
     ADMINS=[]
     for x in (os.environ.get("ADMINS", "6969391120").split()):
